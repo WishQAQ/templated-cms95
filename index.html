@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!--
+                       (0 0)
+   +-------------oOO----(_)----------------+
+   |           Powered By 织梦猫           |
+   |            www.dedemao.com            |
+   |        E-mail:admin@dedemao.com       |
+   +--------------------------oOO----------+
+                      |__|__|
+                       || ||
+                      ooO Ooo
+-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>绿色培训学校教育企业类织梦模板</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<link href="/skin/css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/skin/js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="/skin/js/slide.js" ></script>
+<script type="text/javascript" src="/skin/js/main.js"></script>
+<script src="/skin/js/marquee-min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    var ali=$('#lunbonum li');
+    var aPage=$('#bannerback a');
+    var aslide_img=$('.bannercenter b');
+    var iNow=0;
+	
+    ali.each(function(index){	
+        $(this).mouseover(function(){
+            slide(index);
+        })
+    });
+	
+    function slide(index){	
+        iNow=index;
+        ali.eq(index).addClass('lunboone').siblings().removeClass();
+		aPage.eq(index).siblings().stop().animate({opacity:0},600);
+		aPage.eq(index).stop().animate({opacity:1},600);	
+        aslide_img.eq(index).stop().animate({opacity:1,top:-10},600).siblings('b').stop().animate({opacity:0,top:-40},600);
+    }
+	
+	function autoRun(){	
+        iNow++;
+		if(iNow==ali.length){
+			iNow=0;
+		}
+		slide(iNow);
+	}
+	
+	var timer=setInterval(autoRun,4000);
+		
+    ali.hover(function(){
+		clearInterval(timer);
+	},function(){
+		timer=setInterval(autoRun,4000);
+    });
+})
+</script>
+<script>
+$(document).ready(function(){
+	/*1*/
+	$('#DeWorkList').kxbdSuperMarquee({
+		distance:200,
+		time:10,
+		btnGo:{left:'#goL',right:'#goR'},
+		direction:'left'
+	});
+	/*2*/
+	$('#DeWorkList1').kxbdSuperMarquee({
+		distance:60000,
+		time:10,
+		btnGo:{left:'#goL1',right:'#goR1'},
+		direction:'left'
+	});
+	/*3*/
+	$('#DeWorkList2').kxbdSuperMarquee({
+		distance:60000,
+		time:10,
+		btnGo:{left:'#goL2',right:'#goR2'},
+		direction:'left'
+	});
+	
+});
+</script>
+</head>
+
+<body>
+<div class="header">
+  <div class="banner">
+    <div id="bannerback"> <a style='background-image:url(/skin/images/543647e1eac66.jpg);opacity: 1;filter:alpha(opacity=100);'></a> <a style='background-image:url(/skin/images/543647eb0b094.jpg)'></a> <a style='background-image:url(/skin/images/543647f6a9b64.jpg)'></a> <a style='background-image:url(/skin/images/543647ff744eb.jpg)'></a> <a style='background-image:url(/skin/images/54364808705c5.jpg)'></a> </div>
+    <div class="banner_main"> 
+      <!-- 轮播的页码  开始 -->
+      <ul id='lunbonum'>
+        <li class='lunboone'></li>
+        <li ></li>
+        <li ></li>
+        <li ></li>
+        <li ></li>
+      </ul>
+      <!-- 轮播的页码  结束 --> 
+    </div>
+  </div>
+  <div class="w_1192">
+    <div class="logo float">
+      <h1><a href="/"></a></h1>
+    </div>
+    <div class="nav">
+      <ul>
+        <li><a href="/">网站首页</a></li>
+        
+        <li><a href="/a/dongxiang/">动向</a></li>
+        
+        <li><a href="/a/women/">我们</a></li>
+        
+        <li><a href="/a/fuwu/">服务</a></li>
+        
+        <li><a href="/a/hezuo/">合作</a></li>
+        
+        <li><a href="/a/anli/">案例</a></li>
+        
+        <li><a href="/a/lianxi/">联系</a></li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="xw">
+  <div class="news_tit">
+    <h3>最新动态</h3>
+    <div class="news_btn JQ-slide-nav"> <a href="#" class="btn_l prev"><img src="/skin/images/sy_04.jpg"></a><a href="#" class="btn_r next"><img src="/skin/images/sy_06.jpg"></a> </div>
+    <div class="roll_news JQ-content-box">
+      <ul class="JQ-slide-content">
+        <li class="a1"><a href="/a/dongxiang/xinwen/29.html" title="中国三大货运航空公司将合并 成亚洲最大" target="_blank">中国三大货运航空公司将合并 成亚洲最大</a><span>2015-06-25</span></li>
+<li class="a1"><a href="/a/dongxiang/xinwen/28.html" title="全国8个省份公布2015年工资指导线 涨幅无一上调" target="_blank">全国8个省份公布2015年工资指导线 涨幅无一上调</a><span>2015-06-25</span></li>
+<li class="a1"><a href="/a/dongxiang/xinwen/27.html" title="印度铁道部长做瑜伽时睡着 照片网络疯传遭奚落" target="_blank">印度铁道部长做瑜伽时睡着 照片网络疯传遭奚落</a><span>2015-06-25</span></li>
+<li class="a1"><a href="/a/dongxiang/xinwen/26.html" title="北京公布生娃办证流程图 一孩不再要求婚育证明" target="_blank">北京公布生娃办证流程图 一孩不再要求婚育证明</a><span>2015-06-25</span></li>
+<li class="a1"><a href="/a/dongxiang/xinwen/25.html" title="北京高速路去年收支缺口80亿" target="_blank">北京高速路去年收支缺口80亿</a><span>2015-06-25</span></li>
+<li class="a1"><a href="/a/dongxiang/xinwen/1.html" title="中财办主任刘鹤获孙冶方奖 被视作中国核心智囊" target="_blank">中财办主任刘鹤获孙冶方奖 被视作中国核心智囊</a><span>2015-06-25</span></li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div class="DeWork">
+    <div class="LeftBtn"> <a href="javascript:void 0" id="goL"><img src="/skin/images/anniu_05.jpg"></a> </div>
+    <div class="LeftRight"> <a href="javascript:void 0" id="goR"><img src="/skin/images/anniu_07.jpg"></a> </div>
+    <div class="DeWorkList" id="DeWorkList">
+      <ul>
+        <li> <a href="/a/fuwu/xuexiaohuanjingjianshe/"> <img src="/skin/images/sy_0.jpg" class="small_img"> <img src="/skin/images/sys_big_0.jpg" class="big_img"> <span>学校环境建设</span> </a> </li>
+        <li> <a href="/a/fuwu/xuexiaotesedingwei/" target="_blank"> <img src="/skin/images/sy_1.jpg" class="small_img"> <img src="/skin/images/sys_big_1.jpg" class="big_img"> <span>学校特色定位</span> </a> </li>
+        <li> <a href="/a/fuwu/xuexiaopinpaisheji/" target="_blank"> <img src="/skin/images/sy_2.jpg" class="small_img"> <img src="/skin/images/sys_big_2.jpg" class="big_img"> <span>学校品牌设计</span> </a> </li>
+        <li> <a href="/a/hezuo/hezuoliucheng/" target="_blank"> <img src="/skin/images/sy_3.jpg" class="small_img"> <img src="/skin/images/sys_big_3.jpg" class="big_img"> <span>合作流程</span> </a> </li>
+        <li> <a href="/a/women/gongsijianjie/" target="_blank"> <img src="/skin/images/sy_4.jpg" class="small_img"> <img src="/skin/images/sys_big_4.jpg" class="big_img"> <span>公司简介</span> </a> </li>
+        <li> <a href="/a/fuwu/xiaofulipinzhiding/" target="_blank"> <img src="/skin/images/sy_5.jpg" class="small_img"> <img src="/skin/images/sys_big_5.jpg" class="big_img"> <span>校服礼品制定</span> </a> </li>
+        <li> <a href="/a/fuwu/huodongqingdiancehua/" target="_blank"> <img src="/skin/images/sy_6.jpg" class="small_img"> <img src="/skin/images/sys_big_6.jpg" class="big_img"> <span>活动庆典策划</span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="anli">
+<div class="anli_con">
+<p> <a href="/a/anli/"><img src="/skin/images/sy_34.jpg"></a></p>
+<ul>
+<li><a href="/a/anli/jiaoyuanli/18.html" target="_blank" title="幼儿园设施"><img src="/uploads/allimg/150625/1-15062513423G48-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/17.html" target="_blank" title="北大公学幼儿园"><img src="/uploads/allimg/150625/1-150625134214613-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/16.html" target="_blank" title="北大公学幼儿园静园"><img src="/uploads/allimg/150625/1-15062513414B91-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/15.html" target="_blank" title="新安特殊学校"><img src="/uploads/allimg/150625/1-150625134115J7-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/14.html" target="_blank" title="郑州培育小学"><img src="/uploads/allimg/150625/1-150625134051426-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/13.html" target="_blank" title="超华三中"><img src="/uploads/allimg/150625/1-1506251340232L-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/12.html" target="_blank" title="高桥小学"><img src="/uploads/allimg/150625/1-150625134001259-lp.jpg"></a></li>
+<li><a href="/a/anli/jiaoyuanli/11.html" target="_blank" title="光山紫水外国语学校"><img src="/uploads/allimg/150625/1-150625133924532-lp.jpg"></a></li>
+
+</div>
+</div>
+<div class="kehu">
+  <div class="kefu_con">
+    <p><a href="/a/pinpaimengyou/"><img src="/skin/images/sy_59.jpg"></a></p>
+    <ul>
+      <li><a href="/a/pinpaimengyou/9.html"  title="乐可多儿童乐园"><img src="/uploads/150625/1-150625133633162.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/8.html"  title="小蜜蜂校服"><img src="/uploads/150625/1-15062513354W64.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/7.html"  title="飞达快印"><img src="/uploads/150625/1-150625133504964.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/6.html"  title="博源仪器"><img src="/uploads/150625/1-150625133402539.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/5.html"  title="天尊雕塑"><img src="/uploads/150625/1-150625133311R4.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/4.html"  title="花城绿化"><img src="/uploads/150625/1-15062513320N46.jpg"></a></li>
+<li><a href="/a/pinpaimengyou/3.html"  title="环宇实验器材"><img src="/uploads/150625/1-150625132012355.jpg"></a></li>
+
+      <div class="clear"></div>
+    </ul>
+  </div>
+</div>
+<!--footer--start--> 
+<div class="footer">
+  <div class="footer_con"> Copyright &copy; 2002-2011 DEDECMS.COM 织梦科技 版权所有 <a href=http://www.dedecms.com target='_blank'>Power by DedeCms</a> <br/>
+    地址：广州番禺区国际大厦    电话：0898-66998899  13989569964技术支持：<a href="//zhanoo.com">站窝窝</a>
+    <div class="footer_menu"> <a href="/a/lianxi/">联系我们</a>&nbsp;|&nbsp;
+      <a href="/a/anli/">案例</a>&nbsp;|&nbsp; <a href="/">网站首页</a> </div>
+  </div>
+</div>
+ 
+<!--footer--end-->
+</body>
+</html>

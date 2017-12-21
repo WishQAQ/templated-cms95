@@ -1,0 +1,1 @@
+<li> <a href="[field:typelink/]"> <img src="/skin/images/sy_0.jpg" class="small_img"> <img src="/skin/images/sys_big_0.jpg" class="big_img"> <span>[field:typename/]</span> </a> </li>

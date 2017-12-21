@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" href="/skin/css/sec_style.css"/>
+<script type="text/javascript" src="/skin/js/jquery.min.js"></script>
+<script type="text/javascript" src="/skin/js/my_function.js"></script>
+</head>
+<body class="sec_body" ondragstart="window.event.returnValue=false" oncontextmenu="window.event.returnValue=false" onselectstart="event.returnValue=false">
+<!--top--start--> 
+{dede:include filename="head.htm"/} 
+<!--top--end--> 
+<!--about-tit--start-->
+<div class="about_tit"> <img src="/skin/images/hezuo_tit.jpg">
+  <ul class="left_menu">
+    {dede:channel type='son'}
+    <li id="left_current" style="margin:0 auto;float:none !important;"><a href='[field:typeurl/]'>[field:typename/]</a></li>
+    {/dede:channel}
+    <div class="clear"></div>
+  </ul>
+</div>
+<!--about-tit--end--> 
+
+<!--sec--main--start-->
+<div class="sec_main">
+  <div class="sec_main_top"></div>
+  <div class="sec_main_bg"> 
+    <!--content--start-->
+    <div style="text-align:center;">{dede:field.content/} </div>
+    <!--content--end--> 
+  </div>
+  <div class="sec_main_bo"></div>
+</div>
+<!--sec--main--end--> 
+
+<!--footer--start--> 
+{dede:include filename="footer.htm"/} 
+<!--footer--end-->
+
+</body>
+</html>
